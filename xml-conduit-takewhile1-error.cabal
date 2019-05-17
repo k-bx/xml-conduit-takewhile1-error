@@ -1,0 +1,41 @@
+cabal-version: 1.12
+
+-- This file has been generated from package.yaml by hpack version 0.31.0.
+--
+-- see: https://github.com/sol/hpack
+--
+-- hash: 640c27cb9f9c1e60cfed12cbb6b264c17a59795be5513f549af141f8ad9f065a
+
+name:           xml-conduit-takewhile1-error
+version:        0.1.0.0
+category:       Web
+homepage:       https://github.com/k-bx/xml-conduit-takewhile1-error#readme
+author:         Kostiantyn Rybnikov
+maintainer:     k-bx@k-bx.com
+copyright:      2019 Kostiantyn Rybnikov
+license:        BSD3
+license-file:   LICENSE
+build-type:     Simple
+extra-source-files:
+    README.md
+
+executable xml-conduit-takewhile1-error
+  main-is: Main.hs
+  other-modules:
+      Paths_xml_conduit_takewhile1_error
+  hs-source-dirs:
+      src
+  build-depends:
+      base >=4.7 && <5
+    , bytestring
+    , conduit
+    , data-default
+    , exceptions
+    , interpolatedstring-perl6
+    , resourcet
+    , string-class
+    , unliftio
+    , unliftio-core
+    , xml-conduit
+    , xml-types
+  default-language: Haskell2010

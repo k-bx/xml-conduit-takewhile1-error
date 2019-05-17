@@ -1,0 +1,31 @@
+name:                xml-conduit-takewhile1-error
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/k-bx/xml-conduit-takewhile1-error#readme
+license:             BSD3
+author:              Kostiantyn Rybnikov
+maintainer:          k-bx@k-bx.com
+copyright:           2019 Kostiantyn Rybnikov
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+  - xml-conduit
+  - exceptions
+  - unliftio-core
+  - unliftio
+  - conduit
+  - bytestring
+  - string-class
+  - interpolatedstring-perl6
+  - xml-types
+  - resourcet
+  - data-default
+
+executables:
+  xml-conduit-takewhile1-error:
+    source-dirs:      src
+    main:             Main.hs
